@@ -37,7 +37,7 @@ class Student implements Serializable {
     }
 }
 
-public class EnhancedStudentManagement {
+public class StudentManagement {
     static ArrayList<Student> students = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
     static final String FILE_NAME = "students.txt";
